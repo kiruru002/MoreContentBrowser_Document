@@ -11,6 +11,7 @@
   - [How to Build](#how-to-build)
     - [If a solution file (.sln) is not generated](#if-a-solution-file-sln-is-not-generated)
   - [Features](#features)
+    - [File Tree](#file-tree)
   - [概要](#概要)
   - [プラグイン設定](#プラグイン設定)
   - [インストール方法](#インストール方法)
@@ -78,6 +79,43 @@ Steps:
 - Seamless integration with UE5 Editor
 - View multiple Content Browsers at the same time
 
+### File Tree
+
+MoreContentBrowser
+│  MoreContentBrowser.uplugin
+│
+├─Content
+├─Resources
+│      Icon128.png
+│
+└─Source
+    └─MoreContentBrowserModule
+        │  MoreContentBrowserModule.Build.cs
+        │
+        ├─Private
+        │      MoreContentBrowserModule.cpp
+        │      MoreContentBrowserSettings.cpp
+        │      MoreContentBrowserSingleton.cpp
+        │
+        └─Public
+                MoreContentBrowserModule.h
+                MoreContentBrowserSettings.h
+                MoreContentBrowserSingleton.h
+
+Plugin Modules (JSON):  
+
+```json
+    "Modules": [
+        {
+            "Name": "MoreContentBrowserModule",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+        }
+    ]
+```
+
+Engine Version: 5.7  
+
 ---
 
 ## 概要
@@ -85,8 +123,6 @@ Steps:
 これはUE5のContent Browserパネルの数を増やすプラグインです。  
 
 ![a4.png](images/a4.png)  
-
----
 
 ## プラグイン設定
 
@@ -102,8 +138,6 @@ Steps:
 
 ![a.png](images/a.png)  
 
----
-
 ## インストール方法
 
 このプラグインはUnreal Engine 5.7以降に対応しています。  
@@ -112,8 +146,6 @@ Steps:
 もし「Plugins」フォルダが存在しない場合は、自分で作成してください。  
 
 ![c.png](images/c.png)  
-
----
 
 ## ビルド方法
 
@@ -124,8 +156,6 @@ Steps:
 
 Visual Studioはこちら：  
 → [microsoft.com](https://visualstudio.microsoft.com/vs/community/)  
-
----
 
 ### ソリューションファイル（.sln）が生成されない場合
 
