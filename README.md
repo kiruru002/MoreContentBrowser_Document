@@ -118,6 +118,8 @@ Plugin Modules (JSON):
 
 Engine Version: 5.7  
 
+Target Platform: Windows  
+
 ---
 
 ## 概要
