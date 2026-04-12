@@ -81,6 +81,7 @@ Steps:
 
 ### File Tree
 
+```txt
 MoreContentBrowser
 │  MoreContentBrowser.uplugin
 │
@@ -101,6 +102,7 @@ MoreContentBrowser
                 MoreContentBrowserModule.h
                 MoreContentBrowserSettings.h
                 MoreContentBrowserSingleton.h
+```
 
 Plugin Modules (JSON):  
 
