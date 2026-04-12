@@ -18,6 +18,7 @@
   - [ビルド方法](#ビルド方法)
     - [ソリューションファイル（.sln）が生成されない場合](#ソリューションファイルslnが生成されない場合)
   - [機能](#機能)
+    - [ファイルツリー](#ファイルツリー)
 
 ## Overview
 
@@ -116,6 +117,8 @@ Plugin Modules (JSON):
     ]
 ```
 
+This is a plugin for the editor only.  
+
 Engine Version: 5.7  
 
 Target Platform: Windows  
@@ -186,3 +189,46 @@ Visual Studioはこちら：
 - シンプルで軽量な実装
 - UE5エディタとのシームレスな統合
 - 複数のコンテンツブラウザを同時に表示可能
+
+### ファイルツリー
+
+```txt
+MoreContentBrowser
+│  MoreContentBrowser.uplugin
+│
+├─Content
+├─Resources
+│      Icon128.png
+│
+└─Source
+    └─MoreContentBrowserModule
+        │  MoreContentBrowserModule.Build.cs
+        │
+        ├─Private
+        │      MoreContentBrowserModule.cpp
+        │      MoreContentBrowserSettings.cpp
+        │      MoreContentBrowserSingleton.cpp
+        │
+        └─Public
+                MoreContentBrowserModule.h
+                MoreContentBrowserSettings.h
+                MoreContentBrowserSingleton.h
+```
+
+プラグイン内のモジュール設定 (JSON):  
+
+```json
+    "Modules": [
+        {
+            "Name": "MoreContentBrowserModule",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+        }
+    ]
+```
+
+これはエディター専用プラグインです  
+
+対応エンジンバージョン: 5.7  
+
+対応プラットフォーム: Windows  
