@@ -6,6 +6,7 @@
 - [MoreContentBrowser\_Document](#morecontentbrowser_document)
   - [Table of Content](#table-of-content)
   - [Overview](#overview)
+  - [Background of the Development](#background-of-the-development)
   - [Plugin settings](#plugin-settings)
   - [How to Install](#how-to-install)
   - [How to Build](#how-to-build)
@@ -13,6 +14,7 @@
   - [Features](#features)
     - [File Tree](#file-tree)
   - [概要](#概要)
+  - [開発の背景](#開発の背景)
   - [プラグイン設定](#プラグイン設定)
   - [インストール方法](#インストール方法)
   - [ビルド方法](#ビルド方法)
@@ -25,6 +27,14 @@
 This is a plugin that increases the number of Content Browser panels in UE5.  
 
 ![a4.png](images/a4.png)  
+
+## Background of the Development
+
+Unreal Engine limits the number of Content Browser panels by default to maintain editor performance in large projects.  
+
+This plugin gives you the option to extend that limit when your workflow requires multiple panels, helping you manage assets faster and more efficiently.  
+
+> Note: Opening many Content Browsers may impact performance depending on your project size.  
 
 ## Plugin settings
 
@@ -130,6 +140,14 @@ Target Platform: Windows
 これはUE5のContent Browserパネルの数を増やすプラグインです。  
 
 ![a4.png](images/a4.png)  
+
+## 開発の背景
+
+Unreal Engineでは、大規模なプロジェクトにおけるエディタのパフォーマンスを維持するため、デフォルトでコンテンツブラウザのパネル数が制限されています。  
+
+このプラグインを使用すると、ワークフロー上複数のパネルが必要な場合にその制限を解除できるようになり、アセットをより迅速かつ効率的に管理できるようになります。  
+
+> 注意：プロジェクトの規模によっては、コンテンツブラウザを多数開くとパフォーマンスに影響が出る場合があります。  
 
 ## プラグイン設定
 
