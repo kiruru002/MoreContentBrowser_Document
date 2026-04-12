@@ -19,9 +19,8 @@ This is a plugin that increases the number of Content Browser panels in UE5.
 
 ## Plugin settings
 
-About the Settings  
-
-The settings can be found under "Editor Preferences" and "Plugins"  
+The settings can be found under:
+"Editor Preferences" → "Plugins"
 
 ![b.png](images/b.png)  
 
@@ -31,10 +30,10 @@ The settings can be found under "Editor Preferences" and "Plugins"
 
 ## How to Install
 
-This plugin is available for Unreal Engine 5.7 and later versions.  
+This plugin is available for Unreal Engine 5.7 and later.  
 
-To install this plugin, place it in the “Plugins” folder located in your engine folder.  
-If you can't find the “Plugins” folder, create one yourself.  
+To install it, place the plugin in the "Plugins" folder inside your project directory.  
+If the "Plugins" folder does not exist, create it manually.  
 
 ![c.png](images/c.png)  
 
@@ -42,18 +41,22 @@ If you can't find the “Plugins” folder, create one yourself.
 
 Since this is a code plugin, you'll need to build it after installation.  
 
-This site also has detailed information. → [ue5study.com](https://ue5study.com/how/unrealengine-packaging-visualstudio-settings/)  
+For more details, see: [ue5study.com](https://ue5study.com/how/unrealengine-packaging-visualstudio-settings/)  
 
-Click here for Visual Studio plans. → [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
+Download Visual Studio here: [microsoft.com](https://visualstudio.microsoft.com/vs/community/)
 
 ### If a solution file (.sln) is not generated
 
-If you receive an error like the one below, you can resolve it by adding an empty source code file to the project.  
+If you see an error like this:
 
 > This project does not have any source code. You need to add C++ source files to the project from the Editor before you can generate project files.  
 > For projects without source code, you must first add source code.  
 
-Select \[New C++ Class\] from the Editor to add an empty C++ class or similar to the project.  
-Select Tools → New C++ Class...  
-Click None → Next → Create Class  
-Click OK → Yes to create the class  
+You can fix it by adding an empty C++ class to the project.  
+
+Steps:
+
+- Select "New C++ Class" in the Editor
+- Tools → New C++ Class...
+- Choose "None" → Next → Create Class
+- Click OK → Yes
