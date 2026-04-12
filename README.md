@@ -32,7 +32,7 @@ This is a plugin that increases the number of Content Browser panels in UE5.
 
 Unreal Engine limits the number of Content Browser panels by default to maintain editor performance in large projects.  
 
-This plugin gives you the option to extend that limit when your workflow requires multiple panels, helping you manage assets faster and more efficiently.  
+This plugin gives you the option to extend that limit when your workflow requires multiple panels, helping you manage assets faster and more efficiently. (Up to 9 panels)  
 
 > Note: Opening many Content Browsers may impact performance depending on your project size.  
 
@@ -145,7 +145,7 @@ Target Platform: Windows
 
 Unreal Engineでは、大規模なプロジェクトにおけるエディタのパフォーマンスを維持するため、デフォルトでコンテンツブラウザのパネル数が制限されています。  
 
-このプラグインを使用すると、ワークフロー上複数のパネルが必要な場合にその制限を解除できるようになり、アセットをより迅速かつ効率的に管理できるようになります。  
+このプラグインを使用すると、ワークフロー上複数のパネルが必要な場合にその制限を解除できるようになり、アセットをより迅速かつ効率的に管理できるようになります。(最大 9 枚まで)  
 
 > 注意：プロジェクトの規模によっては、コンテンツブラウザを多数開くとパフォーマンスに影響が出る場合があります。  
 
