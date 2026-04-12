@@ -1,9 +1,9 @@
 
-# MoreContentBrowser_Document
+# MoreContentBrowser UE5 Plugin Document
 
 ## Table of Content
 
-- [MoreContentBrowser\_Document](#morecontentbrowser_document)
+- [MoreContentBrowser UE5 Plugin Document](#morecontentbrowser-ue5-plugin-document)
   - [Table of Content](#table-of-content)
   - [Overview](#overview)
   - [Background of the Development](#background-of-the-development)
@@ -138,7 +138,7 @@ Target Platform: Windows
 
 ## 概要
 
-これはUE5のContent Browserパネルの数を増やすプラグインです。  
+これは UE5 の Content Browser パネルの数を増やすプラグインです。  
 
 ![a4.png](images/a4.png)  
 
