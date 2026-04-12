@@ -11,6 +11,12 @@
   - [How to Build](#how-to-build)
     - [If a solution file (.sln) is not generated](#if-a-solution-file-sln-is-not-generated)
   - [Features](#features)
+  - [概要](#概要)
+  - [プラグイン設定](#プラグイン設定)
+  - [インストール方法](#インストール方法)
+  - [ビルド方法](#ビルド方法)
+    - [ソリューションファイル（.sln）が生成されない場合](#ソリューションファイルslnが生成されない場合)
+  - [機能](#機能)
 
 ## Overview
 
@@ -44,7 +50,7 @@ Since this is a code plugin, you'll need to build it after installation.
 
 For more details, see: [ue5study.com](https://ue5study.com/how/unrealengine-packaging-visualstudio-settings/)  
 
-Download Visual Studio here: [microsoft.com](https://visualstudio.microsoft.com/vs/community/)
+Download Visual Studio here: [microsoft.com](https://visualstudio.microsoft.com/vs/community/)  
 
 ### If a solution file (.sln) is not generated
 
@@ -69,3 +75,76 @@ Steps:
 - Simple and lightweight implementation
 - Seamless integration with UE5 Editor
 - View multiple Content Browsers at the same time
+
+---
+
+## 概要
+
+これはUE5のContent Browserパネルの数を増やすプラグインです。  
+
+![a.png](images/a.png)  
+
+---
+
+## プラグイン設定
+
+設定について  
+
+設定は「Editor Preferences」→「Plugins」から確認できます。  
+
+![b.png](images/b.png)  
+
+| 名前 | 内容 | 初期値 |
+|-|-|-|
+| Additional Content Browser Num | このプラグインによって追加されるContent Browserの数 | 4 |
+
+---
+
+## インストール方法
+
+このプラグインはUnreal Engine 5.7以降に対応しています。  
+
+インストールするには、エンジンフォルダ内の「Plugins」フォルダに配置してください。  
+もし「Plugins」フォルダが存在しない場合は、自分で作成してください。  
+
+![c.png](images/c.png)  
+
+---
+
+## ビルド方法
+
+このプラグインはコードプラグインのため、インストール後にビルドが必要です。  
+
+詳細は以下のサイトも参考になります：  
+→ [ue5study.com](https://ue5study.com/how/unrealengine-packaging-visualstudio-settings/)  
+
+Visual Studioはこちら：  
+→ [microsoft.com](https://visualstudio.microsoft.com/vs/community/)  
+
+---
+
+### ソリューションファイル（.sln）が生成されない場合
+
+以下のようなエラーが表示される場合：
+
+  > This project does not have any source code. You need to add C++ source files to the project from the Editor before you can generate project files.  
+  > For projects without source code, you must first add source code.  
+
+この場合、プロジェクトに空のC++クラスを追加することで解決できます。  
+
+手順：
+
+- エディタで「New C++ Class」を選択  
+- Tools → New C++ Class...  
+- None → Next → Create Class  
+- OK → Yes  
+
+これでクラスが作成されます。
+
+## 機能
+
+- 複数のコンテンツブラウザパネルを追加可能
+- 追加パネルの数を調整可能
+- シンプルで軽量な実装
+- UE5エディタとのシームレスな統合
+- 複数のコンテンツブラウザを同時に表示可能
