@@ -4,12 +4,13 @@
 ## Table of Content
 
 - [MoreContentBrowser\_Document](#morecontentbrowser_document)
-	- [Table of Content](#table-of-content)
-	- [Overview](#overview)
-	- [Plugin settings](#plugin-settings)
-	- [How to Install](#how-to-install)
-	- [How to Build](#how-to-build)
-		- [If a solution file (.sln) is not generated](#if-a-solution-file-sln-is-not-generated)
+  - [Table of Content](#table-of-content)
+  - [Overview](#overview)
+  - [Plugin settings](#plugin-settings)
+  - [How to Install](#how-to-install)
+  - [How to Build](#how-to-build)
+    - [If a solution file (.sln) is not generated](#if-a-solution-file-sln-is-not-generated)
+  - [Features](#features)
 
 ## Overview
 
@@ -49,8 +50,8 @@ Download Visual Studio here: [microsoft.com](https://visualstudio.microsoft.com/
 
 If you see an error like this:
 
-> This project does not have any source code. You need to add C++ source files to the project from the Editor before you can generate project files.  
-> For projects without source code, you must first add source code.  
+  > This project does not have any source code. You need to add C++ source files to the project from the Editor before you can generate project files.  
+  > For projects without source code, you must first add source code.  
 
 You can fix it by adding an empty C++ class to the project.  
 
@@ -60,3 +61,11 @@ Steps:
 - Tools → New C++ Class...
 - Choose "None" → Next → Create Class
 - Click OK → Yes
+
+## Features
+
+- Add multiple Content Browser panels
+- Adjustable number of additional panels
+- Simple and lightweight implementation
+- Seamless integration with UE5 Editor
+- View multiple Content Browsers at the same time
