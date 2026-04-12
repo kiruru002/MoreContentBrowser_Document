@@ -89,6 +89,7 @@ Steps:
 - Simple and lightweight implementation
 - Seamless integration with UE5 Editor
 - View multiple Content Browsers at the same time
+- The newly added content browser includes standard features such as context menu operations, bookmarks, and display customization.
 
 ### File Tree
 
@@ -207,6 +208,7 @@ Visual Studioはこちら：
 - シンプルで軽量な実装
 - UE5エディタとのシームレスな統合
 - 複数のコンテンツブラウザを同時に表示可能
+- 追加されたコンテンツブラウザは、メニュー操作、お気に入り、表示カスタマイズ等標準の機能を有している
 
 ### ファイルツリー
 
