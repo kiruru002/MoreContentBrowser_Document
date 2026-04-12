@@ -22,7 +22,7 @@
 
 This is a plugin that increases the number of Content Browser panels in UE5.  
 
-![a.png](images/a.png)  
+![a4.png](images/a4.png)  
 
 ## Plugin settings
 
@@ -34,6 +34,8 @@ The settings can be found under:
 | Name | Effect | Default value |
 |-|-|-|
 | Additional Content Browser Num | The number of ContentBrowsers added by this plugin | 4 |
+
+![a.png](images/a.png)  
 
 ## How to Install
 
@@ -82,7 +84,7 @@ Steps:
 
 これはUE5のContent Browserパネルの数を増やすプラグインです。  
 
-![a.png](images/a.png)  
+![a4.png](images/a4.png)  
 
 ---
 
@@ -97,6 +99,8 @@ Steps:
 | 名前 | 内容 | 初期値 |
 |-|-|-|
 | Additional Content Browser Num | このプラグインによって追加されるContent Browserの数 | 4 |
+
+![a.png](images/a.png)  
 
 ---
 
