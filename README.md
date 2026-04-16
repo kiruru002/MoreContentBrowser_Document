@@ -131,7 +131,8 @@ Plugin Modules (JSON):
         {
             "Name": "MoreContentBrowserModule",
             "Type": "Editor",
-            "LoadingPhase": "Default"
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [ "Win64" ]
         }
     ]
 ```
@@ -256,7 +257,8 @@ MoreContentBrowser
         {
             "Name": "MoreContentBrowserModule",
             "Type": "Editor",
-            "LoadingPhase": "Default"
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [ "Win64" ]
         }
     ]
 ```
